@@ -14,17 +14,16 @@ import Agasthya from './Components/NinthCompAgasthya';
 function App() {
   return (
     <div className="App">
-      <FirstCompClassRam />
+      {/* <FirstCompClassRam />
       <Lakshmana />
       <Baratha />
       <Sathrugna />
       <Seethama/>
       <Viswamithra />
       <Valmiki />
-      <Athri />
-      <Baradwaja />
       <Agasthya />
-      
+      <Athri /> */}
+      <Baradwaja />
     </div>
   );
 }
