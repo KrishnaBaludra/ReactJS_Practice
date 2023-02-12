@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import HomeClass from "./App5_Components/homeClass";
+import TernaryOperator from "./App5_Components/ternaryOperator";
+import FunctionsTernary from "./App5_Components/functionsTernary";
+import StatesParent from "./App5_Components/statesEg";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h3>States - ReactJS - Murali Sir</h3>
+      <hr />
+      {/* <HomeClass /> */}
+      {/* <TernaryOperator/> */}
+      {/* <FunctionsTernary/> */}
+      <StatesParent />
     </div>
   );
 }
